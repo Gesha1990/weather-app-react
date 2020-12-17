@@ -78,7 +78,7 @@ function HomePage({
           />
           <Select className="weather-app__capitals-dropdown" options={capitals} onChange={(countryObj)=>{
             
-           history.push(`${countryObj.label}`)
+           history.push(`/weather-app-react/${countryObj.label}`)
           }} />
           <div className="weather-app__container">
             <div className="weather-app__container-description">

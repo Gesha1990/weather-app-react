@@ -13,7 +13,7 @@ class App extends Component {
                     <Route exact path="/weather-app-react">
                         <HomePage />
                     </Route>
-                    <Route exact path="/:city">
+                    <Route  path="/weather-app-react/:city">
                         <CityWeatherPage />
                     </Route>
                 </Switch>

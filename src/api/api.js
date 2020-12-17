@@ -4,7 +4,7 @@ let apiId = '866bb374234f58496d65f3240bbc1a0d';
 let units = 'metric';
 
 const instance = axios.create({
-    baseURL: `http://api.openweathermap.org/data/2.5`,
+    baseURL: `https://api.openweathermap.org/data/2.5`,
     headers: {
       'Content-Type': 'application/json'
     }
