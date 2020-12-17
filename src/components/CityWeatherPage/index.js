@@ -70,7 +70,7 @@ function CityWeatherPage({
             src={backgroundImage}
             alt="background"
           />
-          <NavLink to="/" className="weather-app__home-page" ><img  src={home} alt="home" /></NavLink> 
+          <NavLink to="/weather-app-react" className="weather-app__home-page" ><img  src={home} alt="home" /></NavLink> 
           <div className="weather-app__container">
             <div className="weather-app__container-description">
               <h1 className="weather-app__container-description-city">
