@@ -10,10 +10,10 @@ class App extends Component {
     render() {
         return (
           <Switch>
-                    <Route exact path="/weather-app-react">
+                    <Route exact path="/">
                         <HomePage />
                     </Route>
-                    <Route  path="/weather-app-react/:city">
+                    <Route  path="/:city">
                         <CityWeatherPage />
                     </Route>
                 </Switch>
