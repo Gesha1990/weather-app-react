@@ -32,7 +32,6 @@ function CityWeatherPage({
   );
   useEffect(() => {
     getWeatherByCityThunkCreator(match.params.city)
-    console.log(weather_data)
   }, []);
 
   useEffect(() => {

@@ -10,7 +10,7 @@ class App extends Component {
     render() {
         return (
           <Switch>
-                    <Route exact path="/">
+                    <Route exact path="/weather-app-react">
                         <HomePage />
                     </Route>
                     <Route exact path="/:city">
